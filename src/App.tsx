@@ -14,6 +14,18 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Hemp Millionaire Brand Badge */}
+      <div className="fixed bottom-6 right-6 z-40 flex items-center gap-3 bg-white/95 backdrop-blur-sm border border-gray-200 rounded-full px-4 py-2 shadow-lg hover:shadow-xl transition-shadow">
+        <img
+          src="/brady_cartoon_pfp.jpg"
+          alt="Hemp Millionaire"
+          className="w-8 h-8 rounded-full object-cover"
+        />
+        <span className="text-xs font-medium text-gray-600 pr-1">
+          a <span className="font-semibold text-gray-900">Hemp Millionaire</span> brand
+        </span>
+      </div>
+
       {/* Header */}
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-white'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
