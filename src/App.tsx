@@ -27,7 +27,7 @@ function App() {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <img
-                src="/chatgpt_image_jan_22,_2026,_03_30_48_pm.png"
+                src="/logo.svg"
                 alt="Hemp CBD Superstore"
                 className="h-12 sm:h-14 w-auto"
               />
@@ -355,7 +355,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div className="lg:col-span-2">
               <img
-                src="/chatgpt_image_jan_22,_2026,_03_30_48_pm.png"
+                src="/logo.svg"
                 alt="Hemp CBD Superstore"
                 className="h-12 w-auto mb-6"
               />
